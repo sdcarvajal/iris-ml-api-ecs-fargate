@@ -5,8 +5,8 @@ import numpy as np
 
 app = FastAPI(
     title="Iris ML API",
-    description="API de inferencia para un modelo de clasificacion Iris desplegado en ECS Fargate",
-    version="1.0.0",
+    description="API de inferencia para un modelo de clasificacion Iris desplegado en ECS Fargate durante la clase",
+    version="2.0.0",
 )
 
 artifact = joblib.load("iris_model.joblib")
